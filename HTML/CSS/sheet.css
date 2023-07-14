@@ -1,0 +1,737 @@
+.container{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    font-family: 'Open Sans', sans-serif;
+  }
+    .item1 {
+      margin: 10px;
+      font-size: 1.5rem;
+    }
+    .tabs{
+      display: flex;
+      margin: 10px;
+      width: 50%;
+      justify-content: space-between;
+      font-size: 20px;
+    }
+    .navbar{
+        display: flex;
+      margin: 10px;
+      width: 50%;
+      justify-content: space-around;
+      font-size: 20px;
+      text-decoration: none;
+    }
+     .item2:hover{
+  
+      cursor: pointer;
+    } 
+     .item3:hover{
+    
+      cursor: pointer;
+    }
+    .item4:hover{
+     
+      cursor: pointer;
+  
+    }
+    .item5:hover{
+      
+      cursor: pointer;
+  
+    }
+    .item6:hover{
+      
+      cursor: pointer;
+    }
+    #check{
+        visibility: hidden;
+    }
+    #check + label{
+        cursor: pointer;
+    }
+    #check:checked ~ .menu{
+       opacity: 1;
+    }
+ #check ~ .menu {
+  display: none;
+  opacity: 0;
+  width: 100%;
+  border: 1px solid #6266EA;
+  padding: 12px;
+  line-height: 22px;
+  background-color: #ccc;
+  color: black;
+  box-sizing: border-box;
+  flex-direction: column;
+ 
+} 
+    .fa-bars::before{
+        cursor: pointer;
+        font-size: 25px;
+        color:#6266EA;
+      
+    }
+    .icons{
+      display: flex;
+      margin: 10px;
+      width: 10%;
+      justify-content: space-evenly;
+      font-size: 25px;
+      color:#6266EA;
+      cursor: pointer;
+    }
+   .container2{
+    background-image: url("../assets/bg-01.jpg");
+    background-color: #cccccc;
+    padding: 100px;
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+   }
+  
+   .getbutton{
+      padding: 10px;
+      border-radius: 25px;
+      width: 150px;
+      background-color: transparent;
+      color: #6266EA;
+      font-size: 15px;
+      border: 2px solid #6266ea;
+      margin-bottom: 20px;
+   }
+   .getbutton:hover{
+    background-color: #6266EA;
+    color: white;
+   }
+   
+   .develop{
+    font-size: 70px;
+    color: #6266EA;
+    margin-left: 140px;
+   }
+   .deve::after{
+    content: "";
+  
+      width: 130px;
+      display: block;
+      position: absolute;
+      border-bottom: 5px solid #6266ea;
+  }
+   .para{
+    padding-top: 30px;
+    color: black;
+    font-size: 19px;
+    line-height: 30px;
+   }
+   .success{
+    font-size: 21px; 
+    display: flex;
+    justify-content: center;
+  
+  }
+  .make::after{
+    content: "";
+      width: 110px;
+      display: block;
+      border-bottom: 3px solid #6266ea;
+      margin-top: 10px;
+  }
+  .make{
+    margin-right: 380px;
+  }
+  .making{
+    line-height: 30px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 8px;
+   
+   }
+   .section3{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+   }
+   .service{
+    text-align: center;
+    margin: 14px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+   }
+  .fa-gift::before{
+    font-size: 21px;
+    
+  }
+  .topnav {
+    background-color: #6266ea;
+    overflow: hidden;
+    padding-left: 500px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:50px;
+  }
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 56px 64px;
+    font-size: 17px;
+  }
+  .topnav button{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: #6266ea;
+    border: 1px solid #6266ea;
+    color: #fff;
+    cursor: pointer;
+  }
+  .but2:hover{
+    background-color: #4232C2;
+    color: #fff;
+  }
+  .but3:hover{
+    background-color: #4232C2;
+    color: #fff;
+  }
+  .but4:hover{
+    background-color: #4232C2;
+    color: #fff;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 33px;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 12px;
+  }
+  .card1{
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url("../assets/services-01.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card1:hover{
+    background: url("../assets/services-01.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+      color: black;
+  }
+  .card2{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url("../assets/services-02.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card2:hover{
+    background: 
+    url("../assets/services-03.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+      color: black;
+  }
+  .card3{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url("../assets/services-03.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card3:hover{
+    background: 
+    url("../assets/services-03.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+      color: black;
+  }
+  .card4{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url("../assets/services-04.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card4:hover{
+    background: 
+    url("../assets/services-04.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+      color: black;
+  }
+  .button1{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button1:hover{
+    color: black;
+    background-color: #cccccc;
+  }
+  .button2{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button2:hover{
+    color: black;
+    background-color: #cccccc;
+
+  }
+  .button3{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button3:hover{
+    color: black;
+    background-color: #cccccc;
+
+  }
+  .button4{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button4:hover{
+    color: black;
+    background-color: #cccccc;
+
+  }
+  .flex-container2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: white;
+    margin: 33px;
+  }
+  
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 12px;
+   
+  }
+  .card5{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url("../assets/services-05.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card5:hover{
+    background:
+    url("../assets/services-05.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+      
+  }
+  .card6{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url("../assets/services-06.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card6:hover{
+    background: 
+    url("../assets/services-06.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+  }
+  .card7{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url("../assets/services-07.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card7:hover{
+    background: 
+    url("../assets/services-07.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+     }
+  .card8{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),url("../assets/services-08.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    min-width: 255px;
+    max-height: 255px
+  }
+  .card8:hover{
+    background: 
+    url("../assets/services-08.jpg");
+    background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: .5s;
+      color: black;
+  }
+  .button5{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button5:hover{
+    color: black;
+    background-color: #cccccc;
+
+  }
+  .button6{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button6:hover{
+    color: black;
+    background-color: #cccccc;
+
+  }
+  .button7{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button7:hover{
+    color: black;
+    background-color: #cccccc;
+
+  }
+  .button8{
+    border-radius: 25px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  .button8:hover{
+    color: black;
+    background-color: #cccccc;
+
+  }
+  .flex-container3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6266ea;
+  }
+  
+  .flex-container3 > div {
+    background-color: #6266ea;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px 60px;
+    color: white;
+  }
+  .workbutton{
+    padding: 10px 30px;
+    color: white;
+    background-color: #4232c2;
+    border-radius: 25px;
+    border: 1px solid #4232c2;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .fa-archive{
+    font-size: 80px;
+    color: white;
+  }
+  .great{
+    margin-top: 20px;
+  }
+  .flex-container4 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 33px;
+  }
+  
+  .flex-container4 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 12px;
+  }
+  .log1{
+      color: white;
+      min-width: 450px;
+      min-height: 400px;
+      background-image:url("../assets/recent-work-01.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      opacity: 0.5;
+      position: relative;
+  }
+  .social-overlay{
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 0px 0px 0px 40px;
+    transition: bottom 0.3s ease-out;
+  }
+  .log1:hover{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(126, 57, 236, 0.73)),
+    url("../assets/recent-work-01.jpg");
+   background-size: 100% 100%;
+   cursor: pointer;
+  
+  }
+  .log1:hover .social-overlay{
+    bottom: 40%;
+  }
+  
+  .log2{
+    color: black;
+      min-width: 450px;
+      min-height: 400px;
+      background-image: url("../assets/recent-work-02.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      opacity: 0.5;
+      position: relative;
+  }
+  .web-overlay{
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 0px 0px 0px 40px;
+    transition: bottom 0.3s ease-out;
+  }
+  .log2:hover{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(126, 57, 236, 0.73)),
+    url("../assets/recent-work-02.jpg");
+   background-size: 100% 100%;
+   cursor: pointer;
+  
+  }
+  .log2:hover .web-overlay{
+    bottom: 40%;
+  }
+  
+  .log3{
+    color: black;
+      min-width: 450px;
+      min-height: 400px;
+      background-image: url("../assets/recent-work-03.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      opacity: 0.5;
+      position: relative;
+  }
+  .rd-overlay{
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 0px 0px 0px 40px;
+    transition: bottom 0.3s ease-out;
+  }
+  .log3:hover{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(126, 57, 236, 0.73)),
+    url("../assets/recent-work-03.jpg");
+   background-size: 100% 100%;
+   cursor: pointer;
+  
+  }
+  .log3:hover .rd-overlay{
+    bottom: 40%;
+  }
+  .flex-container5 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 33px;
+  }
+  
+  .flex-container5 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 12px;
+  }
+  .log4{
+    color: black;
+    min-width: 450px;
+    min-height: 400px;
+    background-image: url("../assets/recent-work-04.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.5;
+    position: relative;
+  }
+  .public-overlay{
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 0px 0px 0px 40px;
+    transition: bottom 0.3s ease-out;
+  }
+  .log4:hover{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(126, 57, 236, 0.73)),
+    url("../assets/recent-work-04.jpg");
+   background-size: 100% 100%;
+   cursor: pointer;
+  
+  }
+  .log4:hover .public-overlay{
+    bottom: 40%;
+  }
+  .log5{
+  color: black;
+    min-width: 450px;
+    min-height: 400px;
+    background-image: url("../assets/recent-work-05.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.5;
+    position: relative;
+  }
+  .brand-overlay{
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 0px 0px 0px 40px;
+    transition: bottom 0.3s ease-out;
+  }
+  .log5:hover{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(126, 57, 236, 0.73)),
+    url("../assets/recent-work-05.jpg");
+   background-size: 100% 100%;
+   cursor: pointer;
+  
+  }
+  .log5:hover .brand-overlay{
+    bottom: 40%;
+  }
+  .log6{
+  color: black;
+    min-width: 450px;
+    min-height: 400px;
+    background-image: url("../assets/recent-work-06.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.5;
+    position: relative;
+  }
+  .creative-overlay{
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    padding: 0px 0px 0px 40px;
+    transition: bottom 0.3s ease-out;
+  }
+  .log6:hover{
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(126, 57, 236, 0.73)),
+    url("../assets/recent-work-06.jpg");
+   background-size: 100% 100%;
+   cursor: pointer;
+  }
+  .log6:hover .creative-overlay{
+    bottom: 40%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: 300px 100px;
+  
+    background-color: #6266ea;
+  }
+  
+  .grid-container > div {
+    background-color:#6266ea;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 30px;
+    color: white;
+  }
+  .foot5 {
+    grid-column-end: span 4;
+  }
+  .foot1{
+    margin-left: 200px;
+    padding: 30px;
+  }
+  .foot4{
+    font-size: 20px;
+  }
+  .footericon{
+    text-align:left;
+  }
+  .fa-building-o:before{
+    font-size: 30px;
+  }
+  .foot1text{
+    font-size: 15px;
+    text-align: left;
+  }
+  .footlast{
+    margin-left: 1000px;
+  }
+  .copyrights{
+    margin-left: 90px;
+  }
+  
